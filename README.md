@@ -4,6 +4,13 @@ Example scene is build to show functionality. Build application is connecting to
 Project has been made as proof of concept and will be continued only if will be usefull for others.
 
 
+### Instruction:
+
+- to include this assets in your unity3D project for android you need to modify AndroidManifest.xml and add to it:
+```
+<service android:name="org.eu.chege.socketcluster.unityplugin.SCSocketService" android:exported="true">
+</service>
+```
 License
 
 (The MIT License)
